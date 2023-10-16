@@ -95,6 +95,7 @@
         justify-content: space-between;
         align-items: center;
         gap: 20px;
+
         h1 {
             color: var(--White, #FFF);
             font-family: Work Sans;
@@ -133,6 +134,7 @@
             &:hover {
                 background: var(--Background, #2B2B2B);
                 border: 2px solid var(--Call-to-Action, #A259FF);
+
                 img {
                     &:nth-child(1) {
                         display: block;
@@ -152,7 +154,6 @@
         padding-top: 60px;
         overflow: auto;
     }
-
 }
 
 
@@ -179,22 +180,25 @@
             }
         }
     }
-    .section_2{
-        h1{
+
+    .section_2 {
+        h1 {
             font-size: 28px;
         }
-        p{
+
+        p {
             max-width: 400px;
             font-size: 16px;
         }
     }
 }
+
 @media (max-width: 990px) {
-    .section_2{
-        .text{
-        button{
-            display: none;
-        }            
+    .section_2 {
+        .text {
+            button {
+                display: none;
+            }
         }
 
     }
