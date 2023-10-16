@@ -40,6 +40,9 @@ header .burger {
 }
 
 @media (max-width: 990px) {
+  header .logo {
+    width: 180px;
+  }
   header aside {
     display: none;
   }
