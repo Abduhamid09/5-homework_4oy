@@ -1,1 +1,19 @@
-/*# sourceMappingURL=section.css.map */
+.section_1 {
+  padding: 6% 10%;
+  display: flex;
+}
+.section_1 .item h1 {
+  color: var(--White, #FFF);
+  font-family: Work Sans;
+  font-size: 67px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.section_1 .item p {
+  padding-top: 20px;
+  color: var(--White, #FFF);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+}/*# sourceMappingURL=section.css.map */
